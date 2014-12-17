@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    xmlns:yourapp2="http://schemas.android.com/apk/res-auto" >
+
+    <!-- Search, should appear as action button -->
+
+    <item
+        android:id="@+id/action_inrpharmacy"
+        android:icon="@drawable/ic_pill"
+        android:title="Pharmacy"
+        yourapp:showAsAction="always"/>
+    <item
+        android:id="@+id/action_inrhospital"
+        android:icon="@drawable/ic_hospital"
+        android:title="Pharmacy"
+        yourapp:showAsAction="always"/>
+    <item
+        android:id="@+id/action_inrhistory"
+        android:icon="@drawable/ic_clock"
+        android:title="History"
+        yourapp:showAsAction="always"/>
+    <item
+        android:id="@+id/action_help"
+        android:showAsAction="never"
+        android:title="Help"/>
+    <item
+        android:id="@+id/action_about"
+        android:showAsAction="never"
+        android:title="About"/>
+
+</menu>

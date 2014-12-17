@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="INRMeterTheme" parent="@style/_INRMeterTheme" />
+
+    <style name="_INRMeterTheme" parent="Theme.AppCompat.Light">
+        <item name="android:editTextStyle">@style/EditTextINRMeterTheme</item>
+        <item name="android:textColorHighlight">#99ff4444</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewINRMeterTheme</item>
+        <item name="android:checkboxStyle">@style/CheckBoxINRMeterTheme</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonINRMeterTheme</item>
+        <item name="android:buttonStyle">@style/ButtonINRMeterTheme</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonINRMeterTheme</item>
+        <item name="android:spinnerStyle">@style/SpinnerINRMeterTheme</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemINRMeterTheme</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarINRMeterTheme</item>
+        <item name="android:seekBarStyle">@style/SeekBarINRMeterTheme</item>
+        <item name="android:ratingBarStyle">@style/RatingBarINRMeterTheme</item>
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigINRMeterTheme</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallINRMeterTheme</item>
+        <item name="android:buttonStyleToggle">@style/ToggleINRMeterTheme</item>
+        <item name="android:listViewStyle">@style/ListViewINRMeterTheme</item>
+        <item name="android:listViewWhiteStyle">@style/ListViewINRMeterTheme.White</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItemINRMeterTheme</item>
+        <item name="android:editTextBackground">@drawable/inrmetertheme_edit_text_holo_light</item>
+        <item name="android:textSelectHandleLeft">@drawable/inrmetertheme_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/inrmetertheme_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/inrmetertheme_text_select_handle_middle</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/inrmetertheme_btn_check_holo_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/inrmetertheme_btn_radio_holo_light</item>
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerINRMeterTheme</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/inrmetertheme_list_selector_holo_light</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/inrmetertheme_activated_background_holo_light</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/inrmetertheme_fastscroll_thumb_holo</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_example</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Example</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Example</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Example</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Example</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Example</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_example</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_example</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Example</item>
+    </style>
+
+</resources>

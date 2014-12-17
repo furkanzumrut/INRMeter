@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/helptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Just click the measure button on main menu. \nApplication will start to measure your inr value on blood.\nYou can access later your inr history and list all nearby hospital and pharmacy. If your inr value is high, software sends message to your doctor. "
+        android:textSize="20dp" />
+
+</RelativeLayout>
