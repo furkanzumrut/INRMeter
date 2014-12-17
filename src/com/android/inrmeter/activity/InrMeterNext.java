@@ -36,7 +36,7 @@ public class InrMeterNext extends Activity {
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		
 		setContentView(R.layout.inr_meter_next);
-		sendSMS("+905076284453", "Doctor, your patient has problem with his inr value. Immediately, contact him!");
+		sendSMS("+9000000000", "Doctor, your patient has problem with his inr value. Immediately, contact him!");
 
 		nearbyhospitalbutton = (Button) findViewById(com.android.inrmeter.activity.R.id.nearbyhospitalbutton);
 		nearbypharmacybutton = (Button) findViewById(com.android.inrmeter.activity.R.id.nearbypharmacybutton);
